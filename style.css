@@ -1,0 +1,230 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,h1,h2,h3,h4,h5,span,a,button{
+    font-family: 'Open Sans', sans-serif;
+}
+.fixed-width{
+    width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+/*Header section start*/
+.header{
+    background:#1abc9c;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left span{
+    display: inline-block;
+    padding: 13px 0px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header-right{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.header-right ul{
+    list-style: none;
+    line-height: 37px;
+}
+.header-right ul li {
+    display: inline-block;
+    margin-right: -4px;
+    border-left: 1px solid lightblue;
+}
+.header-right ul li:last-child{
+    border-right: 1px solid lightblue;
+}
+.header-right ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    background: #16a085;
+}
+/*Header section end*/
+/*Banner section start*/
+.banner-section{
+    background: url(https://i.ibb.co/SX7cgNL/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 127px;
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000036;
+    z-index: -1;
+}
+.banner-section h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.banner-section h4{
+    color: white;
+    margin-bottom: 29px;
+}
+.banner-section button{
+    display: inline-block;
+    padding: 12px 29px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.banner-section button:hover{
+    background:#16a085 ;
+}
+/*Banner section end*/
+/*Service section start*/
+.secvice-section{
+    padding: 50px 0px;
+    border-bottom: 2px solid #1abc9c;
+}
+.service-info{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.service-info h1{
+    margin-bottom: 19px;
+}
+.service-info p{}
+.service-items{
+}
+.service-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.service-item span{
+    display: inline-block;
+    font-size: 33px;
+    margin-bottom: 6px;
+    color: #1abc9c;
+}
+.service-item h2{
+    margin-bottom: 6px;
+}
+.service-item p{}
+/*Service section end*/
+/*About section start*/
+.about-section{
+    padding: 50px 0px;
+}
+.about-items{
+    padding: 0px 34px;
+}
+.about-img{
+    float: left;
+    width: 42%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-info{
+    float: right;
+    width: 55%;
+}
+.about-info h2{
+    font-size: 30px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.about-info p{
+    margin-bottom: 47px;
+    text-align: justify;
+}
+/*About section end*/
+/*Contact section start*/
+.contuct-section{
+    padding: 65px 0px;
+    background: #bdc3c77a;
+}
+.contuct-items{
+
+padding: 0px 88px;
+
+box-sizing: border-box;
+}
+.contuct-item{
+    width: 341px;
+    float: left;
+    text-align: center;
+}
+.contuct-item i{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 14px;
+    color: #1abc9c;
+}
+.contuct-item span{
+    display: block;
+    margin-bottom: 10px;
+}
+.contuct-item a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: black;
+}
+/*Contact section end*/
+/*icon footer start*/
+.footer-icon{
+    background: #1abc9c;
+    text-align: center;
+    padding: 23px;
+}
+.footer-icon a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 0px 10px;
+    font-size: 24px;
+    transition: .5s;
+}
+.footer-icon a:hover{
+    color:cadetblue
+}
+/*icon footer end*/
+/*Footer section start*/
+.footer-section{
+    text-align: center;
+    padding: 14px;
+    background: black;
+}
+.footer-section p{
+    color: wheat;
+    font-size: 13px;
+    font-weight: 700;
+}
+/*Footer section end*/
+
